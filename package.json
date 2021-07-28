@@ -1,0 +1,26 @@
+{
+  "name": "bitcoin-app",
+  "version": "1.0.0",
+  "description": "Bitcoin App con SSR",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "bitcoin",
+    "app",
+    "ssr"
+  ],
+  "author": "Santiago Monaco",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^11.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "isomorphic-unfetch": "^3.1.0"
+  }
+}
